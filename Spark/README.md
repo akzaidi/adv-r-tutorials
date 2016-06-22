@@ -74,7 +74,7 @@ Documentation Page: [Getting started with R Server on HDInsight](https://azure.m
 
 8. Select **Node Pricing Tiers** to display information about the nodes that will be created for this cluster. Unless you know that you'll need a larger cluster, leave the number of worker nodes at the default of `4`. The estimated cost of the cluster will be shown within the blade.
 
-    ![Node pricing tiers blade](/scaling_r_to_big_data/media/pricingtier.png)
+    ![Node pricing tiers blade](media/pricingtier.png)
 
     Use the **Select** button to save the node pricing configuration.
     
@@ -147,7 +147,7 @@ Please be aware that you won't access R Server through the head/master/name node
             * **Source port** - The port on the client that you wish to forward. For example, **8787**.
             * **Destination** - The destination that must be mapped to the local client machine. For example, **localhost:8787**.
 
-            ![Create an SSH tunnel](/scaling_r_to_big_data/media/createsshtunnel.png "Create an SSH tunnel")
+            ![Create an SSH tunnel](media/createsshtunnel.png "Create an SSH tunnel")
 
         4. Click **Add** to add the settings, and then click **Open** to open an SSH connection.
         5. When prompted, log in to the server. This will establish an SSH session and enable the tunnel.
