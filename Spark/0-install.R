@@ -10,7 +10,7 @@ system("sudo apt-get -y build-dep libcurl4-gnutls-dev")
 system("sudo apt-get -y install libcurl4-gnutls-dev")
 install.packages('devtools')
 devtools::install_github("akzaidi/SparkRext")
-devtools::install_github('plotly/ropensci')
+devtools::install_github('ropensci/plotly')
 
 .libPaths(c(.libPaths(),
             file.path(Sys.getenv("SPARK_HOME"), "R", "lib")))
